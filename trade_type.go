@@ -2,6 +2,10 @@ package alipay
 
 import "encoding/json"
 
+const (
+	TradePayProductCodeFastInstant = "FAST_INSTANT_TRADE_PAY"
+)
+
 ////////////////////////////////////////////////////////////////////////////////
 type TradePay struct {
 	NotifyURL string `json:"-"`
